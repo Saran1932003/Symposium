@@ -1,0 +1,124 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <title>Your HTML Page Title</title> -->
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Video Section -->
+<section class="video-section" id="video-section">
+    <span class="close-btn" onclick="closeVideo()">&times;</span>
+    <video controls autoplay id="bg-video">
+        <source src="images/WhatsApp Video 2024-03-26 at 8.33.43 PM.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+
+</section>
+
+
+
+<section class="service-grid pb-5 pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center mb-4">
+                <div class="service-title">
+                    <h4>FeOza^24 Welcomes You!!</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <div class="service-wrap">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h4>Technical Events</h4>
+                    <p>We're hosting a Technical event with Paper Presntation,Code Debug,Technical quiz,Circuit Debug, Next CEO, and Web Design, offering attendees a chance for talent,Innovations and creativity across various activities.</p>
+                    <a href="">
+                        <button type="button" class="btn btn-primary">View Details</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <div class="service-wrap1">
+                    <div class="service-icon">
+                        <i class="far fa-chart-bar"></i>
+                    </div>
+                    <h4>Non-Technical Events</h4>
+                    <p>We're hosting a non-technical event with Connection activities, IPL auction, a quiz, live music, fireless cooking, and crafts, offering attendees a chance for fun, interaction, and creativity across various activities.</p>
+                    <a href="">
+                        <button type="button" class="btn btn-primary">View Details</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <div class="service-wrap2">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4>Online Events</h4>
+                    <p>We're hosting a Online events with Meme Creation, Photography, Smash Carts,and video creation, offering attendees a chance for showcase their creativity, passion ,skills and Uniqueness across various activities and events.</p>
+                    <a href="">
+                        <button type="button" class="btn btn-primary">View Details</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <div class="service-wrap3">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h4>Culturals</h4>
+                    <p>Events or activities that celebrate cultural diversity, traditions, and heritage through various forms of art, music, dance, drama, and literature.</p>
+                    <a href="">
+                        <button type="button" class="btn btn-primary">View Details</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <div class="service-wrap4">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h4>Fun Events and Stalls</h4>
+                    <p>These events include games, stalls, competitions,and more, aiming to create memorable experiences and enjoyable atmosphere.</p>
+                    <a href="">
+                        <button type="button" class="btn btn-primary">View Details</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-3">
+                <div class="service-wrap5">
+                    <div class="service-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <h4>Volunteer and Support</h4>
+                    <p>"Volunteers are the silent heroes who paint the event with kindness, one selfless act at a time." Intrested Students can Register.</p>
+                    <a href="">
+                        <button type="button" class="btn btn-primary">View Details</button>
+                    </a>
+                </div>
+            </div>
+            <a href="https://forms.visme.co/formsPlayer/8r6j9g8p-contact-form">
+        <button type="button" class="btn1 btn-primary">Register</button>
+            </a>
+        </div>
+    </div>
+    <script>
+        // Function to close the video section
+        function closeVideo() {
+            var videoSection = document.getElementById('video-section');
+            var video = document.getElementById('bg-video');
+            video.pause(); // Pause the video
+            videoSection.style.display = 'none';
+        }
+        
+        // Autoplay video with audio after the page has loaded
+        window.onload = function() {
+            var videoSection = document.getElementById('video-section');
+            videoSection.style.display = 'block';
+        };
+    </script>
+    
+</section>
